@@ -2,6 +2,8 @@ import React from 'react'
 import { fragranceData } from '../data/quizData'
 import './Results.css'
 
+// Trigger workflow: permissions updated
+
 function Results({ fragrances, onRestart }) {
   return (
     <div className="results-container">
