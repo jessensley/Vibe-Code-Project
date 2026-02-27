@@ -21,13 +21,28 @@ function Results({ fragrances, onRestart }) {
             return (
               <div key={index} className="fragrance-card">
                 <div className="fragrance-rank">#{index + 1}</div>
-                <img
-                  src={details.image}
-                  alt={fragrance}
-                  className="fragrance-image"
-                />
+                {details.url ? (
+                  <a href={details.url} target="_blank" rel="noopener noreferrer">
+                    <img
+                      src={details.image}
+                      alt={fragrance}
+                      className="fragrance-image"
+                    />
+                  </a>
+                ) : (
+                  <img
+                    src={details.image}
+                    alt={fragrance}
+                    className="fragrance-image"
+                  />
+                )}
                 <h2 className="fragrance-name">{fragrance}</h2>
                 <p className="fragrance-description">{details.description}</p>
+                {details.url && (
+                  <div className="learn-more-cta">
+                    <a href={details.url} target="_blank" rel="noopener noreferrer">Learn More</a>
+                  </div>
+                )}
               </div>
             )
           })}

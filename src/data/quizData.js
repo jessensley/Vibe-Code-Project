@@ -174,35 +174,43 @@ export const quizData = [
 export const fragranceData = {
   "Wood + Cardamom": {
     description: "A sophisticated blend with warm, spicy cardamom notes",
-    image: woodCardamom
+    image: woodCardamom,
+    url: "https://michaelmalul.com/product/woodcardamom"
   },
   "Zest + Vetiver": {
     description: "Fresh citrus zest combined with earthy vetiver roots",
-    image: zestVetiver
+    image: zestVetiver,
+    url: "https://michaelmalul.com/product/zestvetiver"
   },
   "Ginger + Mist": {
     description: "Spicy ginger with cool, misty undertones",
-    image: gingerMist
+    image: gingerMist,
+    url: "https://michaelmalul.com/product/gingermist"
   },
   "Amber + Smoke": {
     description: "Rich amber warmth with mysterious smoky notes",
-    image: amberSmoke
+    image: amberSmoke,
+    url: "https://michaelmalul.com/product/ambersmoke"
   },
   "Rose + Honey": {
     description: "Delicate rose petals with sweet, golden honey",
-    image: roseHoney
+    image: roseHoney,
+    url: "https://michaelmalul.com/product/rosehoney"
   },
   "Latte + Nectar": {
     description: "Creamy latte with floral nectar sweetness",
-    image: latteNectar
+    image: latteNectar,
+    url: "https://michaelmalul.com/product/latte-nectar"
   },
   "Sangria + Saffron": {
     description: "Fruity sangria notes with luxurious saffron spice",
-    image: sangriaSaffron
+    image: sangriaSaffron,
+    url: "https://michaelmalul.com/product/sangriasaffron"
   },
   "Vanilla + Crème": {
     description: "Smooth vanilla with rich, creamy notes",
-    image: vanillaCreme
+    image: vanillaCreme,
+    url: "https://michaelmalul.com/product/vanillacreme"
   }
 }
 
